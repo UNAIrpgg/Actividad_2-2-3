@@ -1,7 +1,7 @@
 site_name: Mi primer sitio MKDOCS
 site_url: 
-site_dir: /docs
-docs_dir: /paginas
+#site_dir: /docs
+#docs_dir: /paginas
 nav:
  - Unai: unai.md
  - Rodrigo: rodrigo.md
