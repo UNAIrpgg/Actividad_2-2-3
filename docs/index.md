@@ -2,7 +2,7 @@
 
 La **Revolución Bolchevique**, también conocida como la **Revolución de Octubre**, fue un evento fundamental en la historia del siglo XX que marcó el inicio de la instauración del comunismo en Rusia y la creación de la **Unión de Repúblicas Socialistas Soviéticas (URSS)**. Tuvo lugar en octubre de 1917 según el calendario juliano (noviembre según el gregoriano) y fue liderada por el **Partido Bolchevique**, encabezado por **Vladímir Lenin**
 
-![1](/Actividad_2-2/docs/Imagenes/imagenes_index/bolcheviques.jpg)
+![1](Imagenes/imagenes_index/bolcheviques.jpg)
 ## Contexto
 
 La revolución ocurrió en el marco de la **Primera Guerra Mundial (1914-1918)** y tras años de descontento con el régimen zarista:
@@ -12,14 +12,14 @@ La revolución ocurrió en el marco de la **Primera Guerra Mundial (1914-1918)**
 3. **Primera Guerra Mundial**: Rusia sufrió enormes pérdidas humanas y económicas, exacerbando el hambre, la pobreza y el descontento popular.
 4. **Revolución de Febrero de 1917**: El zar fue derrocado y se instaló un gobierno provisional liderado por Aleksandr Kérenski, que no logró estabilizar la situación ni retirarse de la guerra.
 
-![2](/Actividad_2-2/docs/Imagenes/imagenes_index/lenin.jpg)
+![2](Imagenes/imagenes_index/lenin.jpg)
 
 ## Desarrollo de la Revolución de Octubre
 
 - **Liderazgo de los bolcheviques**: Este grupo marxista radical, liderado por Lenin y León Trotski, promovió una revolución socialista que eliminara al gobierno provisional. Su lema principal era **"Paz, pan y tierra"**.
 - **Asalto al Palacio de Invierno**: El 7 de noviembre de 1917, los bolcheviques tomaron el control de los principales centros de poder en Petrogrado (hoy San Petersburgo), derrocando al gobierno provisional.
 
-![3](/Actividad_2-2/docs/Imagenes/imagenes_index/revolucion_octubre.jpg)
+![3](Imagenes/imagenes_index/revolucion_octubre.jpg)
 
 ## Consecuencias
 
@@ -32,4 +32,4 @@ La revolución ocurrió en el marco de la **Primera Guerra Mundial (1914-1918)**
 
 La Revolución Bolchevique es considerada un hito que transformó el curso del siglo XX al dar origen al primer estado socialista de la historia.
 
-![4](/Actividad_2-2/docs/Imagenes/imagenes_index/victoria.jpg)
+![4](Imagenes/imagenes_index/victoria.jpg)
