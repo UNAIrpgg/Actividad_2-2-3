@@ -3,7 +3,6 @@ site_url:
 site_dir: /docs
 docs_dir: /paginas
 nav:
- - Home: index.md
  - Unai: unai.md
  - Rodrigo: rodrigo.md
  - Alvaro: alvaro.md
