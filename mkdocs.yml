@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Mi primer sitio MKDOCS
+site_url: 
+site_dir: /docs
+docs_dir: /paginas
+nav:
+ - Home: index.md
+ - Unai: unai.md
+ - Rodrigo: rodrigo.md
+ - Alvaro: alvaro.md
+theme: readthedocs
