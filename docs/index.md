@@ -16,6 +16,6 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-[Pagina Unai](unai.md)
-[Pagina Rodrigo](rodrigo.md)
-[Pagina Alvaro](alvaro.md)
+![Pagina Unai](unai.md)
+![Pagina Rodrigo](rodrigo.md)
+![Pagina Alvaro](alvaro.md)
