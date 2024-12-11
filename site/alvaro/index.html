@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Alvaro - Mi primer sitio MKDOCS</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Alvaro";
+        var mkdocs_page_input_path = "alvaro.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Mi primer sitio MKDOCS
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../unai/">Unai</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../rodrigo/">Rodrigo</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Alvaro</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#preparacion-de-hugo">Preparación de Hugo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#creacion-del-repositorio-papermod">Creación del repositorio Papermod</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#papermod-en-github">Papermod en GitHub</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#despliegue-en-cloudflare">Despliegue en CloudFlare</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bolcheviques/">Bolcheviques</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Mi primer sitio MKDOCS</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Alvaro</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="tarea-2-creacion-del-repositorio-de-hugo-papermod">Tarea 2: Creación del repositorio de Hugo Papermod</h1>
+<p><code>por Alvaro San Juan - ASIR2</code></p>
+<p>En esta actividad vamos a crear una nueva página web que use Hugo como base para funcionar y que use el estilo de Papermod</p>
+<h2 id="preparacion-de-hugo">Preparación de Hugo</h2>
+<blockquote>
+<p>Para poder hacer el repositorio usando hugo tendremos que instalar hugo, para ello tenemos que ir al GitHub de Hugo, entrar en versiones y luego ir a la página 2 para encontrar la v0.135</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/1.png" /></p>
+<blockquote>
+<p>Elegimos el archivo de Linux AMD64.deb y copiamos su enlace, con el enlace copiado vamos a ir a VS code conectado en remoto de Debian dentro del fichero "repositorios". Usaremos en el terminal wget (Link) para instalar el archivo.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/2.png" /></p>
+<blockquote>
+<p>Ahora que tenemos el archivo vamos a ir al root (solo necesario para instalar) y hacemos apt install del archivo hugo v0.135.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/3.png" /></p>
+<h2 id="creacion-del-repositorio-papermod">Creación del repositorio Papermod</h2>
+<blockquote>
+<p>Ahora que tenemos todo instalado revisaremos el GitHub en la Wiki, en la sección de instalación. En esta sección tendremos una guía de como instalar el Papermod.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/4.png" /></p>
+<blockquote>
+<p>Primero crearemos el nuevo sitio Hugo con hugo new site (Nombre), es opcional pero no recomendado usar --format yaml para el sitio. Papermod lo recomienda por lo que vamos a usarlo.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/5.png" /></p>
+<blockquote>
+<p>Entraremos en el nuevo fichero con cd y luego usaremos git submodule add como se pide en el metodo 2 recomendado por Papermod. Al hacer esto nos dirá que el directorio no es un repositorio.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/6.png" /></p>
+<blockquote>
+<p>Usaremos git init para transformar el directorio en un repositorio.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/7.png" /></p>
+<blockquote>
+<p>Ahora sí usaremos submodule add y despues los git submodules update / git submodule init.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/8.png" /></p>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/9.png" /></p>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/10.png" /></p>
+<blockquote>
+<p>Dentro del repositorio crearemos una carpeta llamada posts dentro de content, dentro de content/posts crearemos carpetas para los posts, y dentro de estas carpetas pondremos los nuevos posts.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/11.png" /></p>
+<blockquote>
+<p>Estructura: content/posts/postname/post.md</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/12.png" /></p>
+<blockquote>
+<p>Es importante indicar que se debe usar  la estructura de yaml que se indica en la página web de Papermod, dentro del hugo.yaml. </p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/alt.png" /></p>
+<blockquote>
+<p>Ahora que está configurado todo tendremos que usar el comando de hugo server --bind (IP) para que hugo nos creé la página web con su propio servidor localhost.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/13.png" /></p>
+<blockquote>
+<p>Este es el aspecto: </p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/14.png" /></p>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/15.png" /></p>
+<h2 id="papermod-en-github">Papermod en GitHub</h2>
+<blockquote>
+<p>Como ya está creado la página web tendremos que subirlo a GitHub, para subirlo tendremos que crear un repositorio en GitHub con el mismo nombre del repositorio en VS code. En el terminal pondremos git add y git commit, también git remote origin (Link del repositorio) y git push.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/16.png" /></p>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/17.png" /></p>
+<blockquote>
+<p>Este es el resultado final en GitHub (ignora el workflow)</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/18.png" /></p>
+<blockquote>
+<p>Ahora toca crear la página web en GitHub, para ello tenemos que poner como source el GitHub Actions.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/19.png" /></p>
+<blockquote>
+<p>Buscaremos en GitHub todos los posibles workflows disponibles, entre estos tenemos que buscar Hugo.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/20.png" /></p>
+<blockquote>
+<p>Al presionar configure nos mostrará un modelo de Workflows especializado en Hugo, lo crearemos y se añadirá directamente al repositorio. (ES IMPORTANTE HACER UN GIT PULL DESPUES DE CREAR EL WORKFLOW O ESTARÁN DESINCRONIZARÁ)</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/21.png" /></p>
+<blockquote>
+<p>Como podemos ver funciona la página web.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/22.png" /></p>
+<h2 id="despliegue-en-cloudflare">Despliegue en CloudFlare</h2>
+<blockquote>
+<p>Crearemos una página en Work &amp; Pages (ES IMPORTANTE AÑADIR EL REPOSITORIO EN CLOUDFLARE), seleccionando el repositorio y poniendo la configuración necesaria.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/23.png" /></p>
+<blockquote>
+<p>Ponemos como modulo el de Hugo, quitamos la instalación de Hugo y pondremos que /public sea la carpeta raiz. Ademas vamos a crear una variable que sea HUGO_VERSION 0.135.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/24.png" /></p>
+<blockquote>
+<p>La página ya ha sido creada y funciona.</p>
+</blockquote>
+<p><img alt="Imagen" src="../Imagenes-Alvaro/25.png" /></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../rodrigo/" class="btn btn-neutral float-left" title="Rodrigo"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../bolcheviques/" class="btn btn-neutral float-right" title="Bolcheviques">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../rodrigo/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../bolcheviques/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>

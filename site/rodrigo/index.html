@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Rodrigo - Mi primer sitio MKDOCS</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Rodrigo";
+        var mkdocs_page_input_path = "rodrigo.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Mi primer sitio MKDOCS
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../unai/">Unai</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Rodrigo</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-instalacion-de-hugo">1. Instalación de Hugo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-creacion-de-un-nuevo-proyecto-en-hugo">2. Creación de un nuevo proyecto en Hugo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-configuracion-del-repositorio-en-github">3. Configuración del repositorio en GitHub</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-gestion-de-temas-en-hugo">4. Gestión de temas en Hugo</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-subida-del-proyecto-a-github">5. Subida del proyecto a GitHub</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#6-despliegue-en-netlify">6. Despliegue en Netlify</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_1"></a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../alvaro/">Alvaro</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bolcheviques/">Bolcheviques</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Mi primer sitio MKDOCS</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Rodrigo</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="instalacion-y-configuracion-de-hugo">Instalación y Configuración de Hugo</h1>
+<p>Voy a crear una página en Hugo mediante visual studio code y voy a desplegarla mediante comandos en Github y Netlify.</p>
+<hr />
+<h2 id="1-instalacion-de-hugo">1. Instalación de Hugo</h2>
+<ul>
+<li>Instalo la versión extendida de Hugo mediante el comando mostrado.</li>
+</ul>
+<p><img alt="Proceso de instalación de Hugo en la máquina virtual" src="../Imagenes2/1.png" /></p>
+<hr />
+<h2 id="2-creacion-de-un-nuevo-proyecto-en-hugo">2. Creación de un nuevo proyecto en Hugo</h2>
+<ul>
+<li>Utilizo el comando:
+     <code>bash
+     hugo new site &lt;actividad22_2_RAU&gt;</code></li>
+<li>Esto generará la estructura inicial del proyecto.</li>
+</ul>
+<p><img alt="Imagen 2: Estructura del proyecto generada por Hugo" src="../Imagenes2/2.png" /></p>
+<h2 id="3-configuracion-del-repositorio-en-github">3. Configuración del repositorio en GitHub</h2>
+<ul>
+<li>Me meto a GitHub y creo un nuevo repositorio vacío con el nombre de la actividad.</li>
+</ul>
+<p><img alt="Imagen 4: Interfaz de GitHub para crear un repositorio nuevo" src="../Imagenes2/3.png" /></p>
+<ol>
+<li><strong>Clonar el repositorio</strong>:</li>
+<li>Para clonar este repositorio utilizo este comando
+     <code>bash
+     git clone https://github.com/RodrigoGColl/actividad22_1_RAU.git</code></li>
+</ol>
+<p><img alt="Imagen 5: Proceso de clonación del repositorio en la terminal" src="../Imagenes2/4.png" /></p>
+<hr />
+<h2 id="4-gestion-de-temas-en-hugo">4. Gestión de temas en Hugo</h2>
+<ol>
+<li><strong>Añado un tema al proyecto</strong>:</li>
+<li>Descargo el tema ananke y lo añado como submódulo:
+     <code>bash
+     git submodule add &lt;URL del tea de ananke&gt; themes/&lt;ananke&gt;</code></li>
+</ol>
+<p><img alt="Imagen 6: Proceso de añadir un tema como submódulo" src="../Imagenes2/5.png" /></p>
+<ol>
+<li><strong>Configuración del tema</strong>:</li>
+<li>Añado la referencia al tema en el archivo de configuración:
+     <code>bash
+     theme = "&lt;ananke&gt;"</code></li>
+</ol>
+<p><img alt="Imagen 7: Archivo config.toml configurado con el tema" src="../Imagenes2/6.png" /></p>
+<ol>
+<li><strong>Actualización del submódulo</strong>:</li>
+<li>Para la actualización del módulo ejecuto:
+     <code>bash
+     git submodule init
+     git submodule update</code></li>
+</ol>
+<p><img alt="Imagen 8: Confirmación de actualización del submódulo en la terminal" src="../Imagenes2/7.png" /></p>
+<hr />
+<ol>
+<li>
+<p><strong>Configuración del índice</strong></p>
+</li>
+<li>
+<p>Así he configurado el índice de la página</p>
+</li>
+</ol>
+<p><img alt="Imagen 11: Configuración del dominio en Netlify" src="../Imagenes2/8.png" /></p>
+<h2 id="5-subida-del-proyecto-a-github">5. Subida del proyecto a GitHub</h2>
+<ol>
+<li><strong>Preparar los cambios para subirlos</strong>:</li>
+<li>Añado los archivos:
+     <code>bash
+     git add .</code></li>
+<li>Confirmo los cambios:
+     <code>bash
+     git commit -m "lo subo"</code></li>
+<li>Subo los cambios al repositorio:
+     <code>bash
+     git push -u origin master</code></li>
+</ol>
+<p><img alt="Imagen 9: Terminal mostrando la subida de archivos a GitHub" src="../Imagenes2/9.png" />
+   <img alt="Imagen 9: Confirmación de subida a Github" src="../Imagenes2/15.png" /></p>
+<hr />
+<h2 id="6-despliegue-en-netlify">6. Despliegue en Netlify</h2>
+<ol>
+<li><strong>Vinculación del repositorio en Netlify</strong>:</li>
+<li>Accedo a Netlify, creo un nuevo sitio desde un repositorio y selecciono el proyecto que he hecho.</li>
+</ol>
+<p><img alt="Imagen 10: Proceso de vinculación del repositorio en Netlify" src="../Imagenes2/18.png" /></p>
+<ol>
+<li><strong>Configurar el dominio y desplegar el sitio</strong>:</li>
+<li>Ajusto las configuraciones necesarias para el dominio y el despliegue, seguiré los siguientes pasos.</li>
+</ol>
+<p><img alt="Imagen 11: Configuración del dominio en Netlify" src="../Imagenes2/12.png" />
+   <img alt="Imagen 11: Configuración del dominio en Netlify" src="../Imagenes2/13.png" />
+   <img alt="Imagen 11: Configuración del dominio en Netlify" src="../Imagenes2/14.png" />
+   <img alt="Imagen 11: Configuración del dominio en Netlify" src="../Imagenes2/16.png" /></p>
+<ul>
+<li>Aquí ya se ha completado</li>
+</ul>
+<h2 id="_1"><img alt="Imagen 11: Configuración del dominio en Netlify" src="../Imagenes2/17.png" /></h2>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../unai/" class="btn btn-neutral float-left" title="Unai"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../alvaro/" class="btn btn-neutral float-right" title="Alvaro">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../unai/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../alvaro/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
